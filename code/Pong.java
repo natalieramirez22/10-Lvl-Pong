@@ -28,7 +28,7 @@ public class Pong extends JFrame implements ActionListener
   {
     super("10 Lvl Pong");
     setBounds(0, 0, frameX, frameY);
-    setBackground(Color.WHITE);
+    setBackground(Color.YELLOW);
     setResizable(false);
     setAlwaysOnTop(true);
     setLayout(null);
@@ -38,7 +38,7 @@ public class Pong extends JFrame implements ActionListener
   public void showWelcome()
   {
     splash = new Splash();
-    splash.button.addActionListener(this);
+    splash.button.addActionListener(this);;
 
     window.add(splash);    
   }
