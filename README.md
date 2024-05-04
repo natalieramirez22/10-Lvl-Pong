@@ -1,5 +1,5 @@
 # 10-Lvl-Pong
-Java ping pong game
+Retro single-player ping pong Java game
 
 # What I Learned
 * Java Graphics
