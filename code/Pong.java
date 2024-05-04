@@ -79,7 +79,7 @@ public class Pong extends JFrame implements ActionListener
   public static void main(String[] args) 
   {
     window = new Pong();
-    Scoreboard s = new Scoreboard();
+    new Scoreboard();
     window.showWelcome();
     window.setVisible(true);
   }

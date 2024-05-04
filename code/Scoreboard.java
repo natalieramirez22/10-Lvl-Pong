@@ -32,7 +32,7 @@ public class Scoreboard extends JPanel
    public static void draw(Graphics g)
    {
       g.setColor(Color.BLACK);
-      g.setFont(new Font("Comic Sans MS", Font.PLAIN, 18));
+      g.setFont(new Font("ArcadeClassic", Font.PLAIN, 18));
       
    // FOR THE FULL SCREEN COLOR EFFECT
       //if (level == 2 || level == 3 || level == 4 || level == 5 || level == 7 || level == 9 || level == 10)
@@ -60,10 +60,10 @@ public class Scoreboard extends JPanel
    
 
 
-      g.drawString("Lives left: " + lives, 30, 40);
-      g.drawString("Points: " + points, 30, 65);
-      g.drawString("Level: " + level, 30, 90);
-      g.drawString("Timer: " + secondsLeft, 30, 115);
+      g.drawString("Lives  left:   " + lives, 30, 40);
+      g.drawString("Points:   " + points, 30, 65);
+      g.drawString("Level:   " + level, 30, 90);
+      g.drawString("Timer:   " + secondsLeft, 30, 115);
      
       if (points == 450)
       {

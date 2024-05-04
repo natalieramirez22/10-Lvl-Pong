@@ -21,16 +21,17 @@ public class Splash extends JPanel
     setBackground(Color.BLACK);
     setLayout(new GridLayout(3,3,4,4));
     
-    JLabel gameLabel = new JLabel("10 Lvl Pong!");
+    JLabel gameLabel = new JLabel("10  Lvl  Pong!");
     gameLabel.setForeground(Color.WHITE);
-    gameLabel.setFont(new Font("Comic Sans MS", Font.BOLD, 70));
+    gameLabel.setFont(new Font("ArcadeClassic", Font.BOLD, 70));
     gameLabel.setBounds(400, 400, 300, 200);
     
-    JLabel nameLabel = new JLabel("By: Natalie Ramirez");
+    JLabel nameLabel = new JLabel("By:  Natalie  Ramirez");
     nameLabel.setForeground(Color.WHITE);
-    nameLabel.setFont(new Font("Comic Sans MS", Font.BOLD, 30));
+    nameLabel.setFont(new Font("ArcadeClassic", Font.BOLD, 30));
 
     button = new JButton("  Start Game  ");
+    button.setFont(new Font("ArcadeClassic", Font.BOLD, 18));
 
     JPanel p = new JPanel();
     p.setLayout(new FlowLayout(FlowLayout.CENTER));
